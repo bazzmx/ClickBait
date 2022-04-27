@@ -35,3 +35,6 @@ MANIFEST
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Model files
+*.h5
