@@ -46,7 +46,7 @@ def format_response(predictions, input_text):
             "prediction": p,
             "predicted_class": preds[p]
         }
-        data.update(result)
+        data[len(data.values())] = result
     return data
 
 if __name__  == '__main__':
